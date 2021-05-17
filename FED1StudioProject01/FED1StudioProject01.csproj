@@ -67,6 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Contact.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\HobbitLogoFinal.jpg" />
+    <Content Include="Images\Large.jpg" />
+    <Content Include="Images\Medium.jpg" />
+    <Content Include="Images\Number3.jpg" />
+    <Content Include="Images\Number4.jpg" />
+    <Content Include="Images\TryAgain.jpg" />
+    <Content Include="Stylesheets\custom.css" />
+    <Content Include="Team.html" />
+    <Content Include="Classes.html" />
+    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,9 +94,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Stylesheets\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
