@@ -1,5 +1,4 @@
 ﻿body {
-    /*background-image: url('../Images/Number3.jpg');*/
     background-image: url('../Images/Large.jpg');
     background-position: top;
     background-repeat: no-repeat;
@@ -96,8 +95,23 @@ header img {
 section h1 {
     color: black;
     text-decoration: underline;
+    font-size: 22pt;
 }
 
 article h3 {
-    color: black;    
+    color: black;
+    font-size: 20pt;
+}
+
+main section p{
+    font-size: 18pt;
+}
+
+#textDesign{
+    text-align: center;
+}
+
+main article img{
+    margin-left: 35em;
+
 }

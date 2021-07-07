@@ -71,10 +71,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Images\HobbitLogoFinal.jpg" />
     <Content Include="Images\Large.jpg" />
-    <Content Include="Images\Medium.jpg" />
-    <Content Include="Images\Number3.jpg" />
-    <Content Include="Images\Number4.jpg" />
-    <Content Include="Images\TryAgain.jpg" />
+    <Content Include="Images\Main_PortraitMk2.jpg" />
     <Content Include="Stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
