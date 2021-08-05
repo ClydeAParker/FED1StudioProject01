@@ -1,9 +1,9 @@
 ﻿body {
-    background-image: url('../Images/Large.jpg');
+    background-image: url('../Images/HobbitThing03.jpg');
+    /*background-image: url('../Images/Large.jpg');*/
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400%;
 }
 
 #colorGradient1 {
@@ -76,7 +76,7 @@ footer {
 main {
     border: double;
     background-color: rgba(152,161,168, .8);
-    height: 85em;
+    height: 120em;
     width: 99.8%;   
     color: white;
     background-size: cover;
@@ -129,6 +129,10 @@ main section div img {
     margin-left: 20px;
     margin-right: 40px;
    
+}
+
+main section div article p {
+    font-size: 20pt;
 }
 
 div article h3 {
@@ -229,7 +233,18 @@ main section article p {
     font-size: 14pt;
 }
 
-.classSubject {
-    border: double;
-    width: 20px;
+main div div article p {
+    font-size: 13pt;
+}
+
+.table {
+    color: black;
+    font-size: 15pt;
+    margin-left: 38%;   
+}
+
+table, th, td {
+    border: 5px double;   
+    align-content: center;
+    color: black;   
 }
