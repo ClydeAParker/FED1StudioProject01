@@ -3,7 +3,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: 400%;
 }
 
 #colorGradient1 {
@@ -18,8 +18,7 @@
     background-image: radial-gradient(circle farthest-side at 50% 60%, transparent, #23260C, #5D7310);
 }
 
-nav ul li a 
-{
+nav ul li a {
     padding: .1em 1em;
     font-weight: bold;
     color: black;
@@ -27,10 +26,8 @@ nav ul li a
     display: block;
 }
 
-nav ul li
-{
+nav ul li {
     display: inline-block;
-
 }
 
 nav {
@@ -44,7 +41,8 @@ nav {
 a:hover {
     background-color: black;
     display: block;
-    color: White;      
+    color: White;
+    background-size: cover;
 }
 
 header {
@@ -57,20 +55,20 @@ header {
     color: white;
 }
 
-    header h1, header p {
-        margin: 15px 0 8px 120px;
-        text-align: left;
-        
-    }
-    header p {
-        font-style: italic;
-    }
+header h1, header p {
+    margin: 15px 0 8px 120px;
+    text-align: left;
+}
+
+header p {
+    font-style: italic;
+}
 
 footer {
     vertical-align: bottom;
     margin-top: -50px;
     bottom: 0;
-    width: 99.1%;
+    width: 98.85%;
     position: fixed;
     text-align: left;
 }
@@ -78,23 +76,21 @@ footer {
 main {
     border: double;
     background-color: rgba(152,161,168, .8);
-    height: 43em;
-    width: 99.8%;
-    margin-right: 2em;
-    margin-left: 2em;
+    height: 85em;
+    width: 99.8%;   
     color: white;
+    background-size: cover;
 }
 
 header img {
     float: left;
     margin: 1em;
     border: double;
-    border-color: black;   
+    border-color: black;
 }
 
 section h1 {
-    color: black;
-    text-decoration: underline;
+    color: black;    
     font-size: 22pt;
 }
 
@@ -103,15 +99,137 @@ article h3 {
     font-size: 20pt;
 }
 
-main section p{
+main section p {
     font-size: 18pt;
 }
 
-#textDesign{
+.contactPosition {
     text-align: center;
 }
 
-main article img{
-    margin-left: 35em;
+main aside img {
+    margin-left: 20px;
+    margin-top: 8px;
+    margin-right: 20px;
+}
 
+main section h1 {
+    text-align: center;
+    font-size: 40px;
+    border: double;
+    padding: 1%;
+    border-color: white;
+}
+
+main section h2 {  
+    color: black;
+}
+
+main section div img {
+    margin-left: 20px;
+    margin-right: 40px;
+   
+}
+
+div article h3 {
+    text-align: left;
+}
+
+#pointTwo {
+    margin-left: 20px;
+}
+
+.row {
+    align-content: center;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.sectionRow {
+    align-content: space-between;
+}
+
+.gallery {
+    display: inline-block;
+    border: double;
+    vertical-align: top;  
+    width: 30%;
+    padding: 1%;
+    height: 550px;
+}
+
+.topRow {
+    width: 100%;
+    height: auto;
+    align-content: center;
+    margin-left: 0%;
+}
+
+.bottomRow {
+    width: 100%;
+    height: auto;
+    align-content: center;
+    margin-left: 0%;
+}
+
+main h1 {
+    text-align: center;
+    
+    color: black;
+}
+
+main div article h3 {
+    text-align: center;
+}
+
+main div article p {
+    text-align: center;
+}
+
+#leftSide {
+    float: left;
+    width: 80%;
+}
+
+.aside {
+    position: sticky !important;
+    top: 0;
+    float: right;
+    width: 19.59%;
+    border: double;
+    vertical-align: top;
+    height: 735px;
+    font-size: 20pt;
+}
+
+aside section h3 {
+    color: black;
+}
+
+main aside section h3 {
+    margin-left: 10%;
+}
+
+main div div section h2 {
+    text-align: left;
+}
+
+main div div section p {
+    text-align: left;
+}
+
+.team {
+    display: inline-block;
+    border: double;
+    padding: 1%;
+}
+
+main section article p {
+    font-size: 14pt;
+}
+
+.classSubject {
+    border: double;
+    width: 20px;
 }

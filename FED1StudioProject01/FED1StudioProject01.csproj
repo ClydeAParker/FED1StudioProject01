@@ -69,9 +69,22 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="Images\Copperation01.jpg" />
+    <Content Include="Images\Enemies01.jpg" />
+    <Content Include="Images\Food01.jpg" />
+    <Content Include="Images\Gandalf02.jpg" />
+    <Content Include="Images\Gandalf_Smoking02.jpg" />
     <Content Include="Images\HobbitLogoFinal.jpg" />
+    <Content Include="Images\Hobbit_Group05.jpg" />
+    <Content Include="Images\Hobbit_Run05.jpg" />
     <Content Include="Images\Large.jpg" />
     <Content Include="Images\Main_PortraitMk2.jpg" />
+    <Content Include="Images\Merry02.jpg" />
+    <Content Include="Images\Panic Situations01.jpg" />
+    <Content Include="Images\Pippin02.jpg" />
+    <Content Include="Images\Samwise02.jpg" />
+    <Content Include="Images\Shelter01.jpg" />
+    <Content Include="Images\Skills01.jpg" />
     <Content Include="Stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Classes.html" />
