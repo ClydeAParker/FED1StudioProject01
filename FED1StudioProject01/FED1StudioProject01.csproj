@@ -69,6 +69,8 @@
   <ItemGroup>
     <Content Include="Contact.html" />
     <Content Include="favicon.ico" />
+    <Content Include="Fonts\liesmich.html" />
+    <Content Include="Fonts\readme.html" />
     <Content Include="Images\Copperation01.jpg" />
     <Content Include="Images\Enemies01.jpg" />
     <Content Include="Images\Food01.jpg" />
@@ -96,8 +98,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Fonts\anirb___.ttf" />
-    <Content Include="Fonts\anirm___.ttf" />
+    <Content Include="Fonts\file_id.diz" />
+    <Content Include="Fonts\RINGM___.TTF" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

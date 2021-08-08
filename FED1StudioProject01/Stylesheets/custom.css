@@ -1,9 +1,14 @@
 ﻿body {
     background-image: url('../Images/HobbitThing03.jpg');
-    /*background-image: url('../Images/Large.jpg');*/
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'RINGM___';
+}
+
+@font-face {
+    font-family: 'RINGM___';
+    src: url('../Fonts/RINGM___.TTF') format('truetype');
 }
 
 #colorGradient1 {
@@ -15,7 +20,11 @@
 }
 
 #colorGradient3 {
-    background-image: radial-gradient(circle farthest-side at 50% 60%, transparent, #23260C, #5D7310);
+    background-image: radial-gradient(circle farthest-side at 50% 60%, transparent, #23260C, #5D7310);    
+}
+
+#footerSpace {
+    margin-left: 15px;
 }
 
 nav ul li a {
@@ -55,14 +64,14 @@ header {
     color: white;
 }
 
-    header h1, header p {
-        margin: 15px 0 8px 120px;
-        text-align: left;
-    }
+header h1, header p {
+    margin: 15px 0 8px 120px;
+    text-align: left;
+}
 
-    header p {
-        font-style: italic;
-    }
+header p {
+    font-style: italic;
+}
 
 footer {
     vertical-align: bottom;
@@ -159,7 +168,7 @@ div article h3 {
     vertical-align: top;
     width: 30%;
     padding: 1%;
-    height: 550px;
+    height: 650px;
 }
 
 .topRow {
@@ -249,17 +258,17 @@ table, th, td {
 
 /*body div a {
     font-size: 16px;*/
-    /*display: flex;*/       
-    /*background: white;
-    color: white;
-    line-height: 1;
-    margin-left: 50%;
-    border-radius: 50%;
-    border-color: white;
-    width: 40px;
-    height: 40px;*/
-    /*display: flex;*/
-}
+/*display: flex;*/
+/*background: white;
+color: white;
+line-height: 1;
+margin-left: 50%;
+border-radius: 50%;
+border-color: white;
+width: 40px;
+height: 40px;
+display: flex;
+}*/
 
 /*header .socialIcons {
     display: flex;
@@ -270,7 +279,3 @@ table, th, td {
     border: white;
 }*/
 
-.hover{
-    border: double;
-    height: 550px;
-}
