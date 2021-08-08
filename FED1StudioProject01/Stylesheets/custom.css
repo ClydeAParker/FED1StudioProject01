@@ -55,14 +55,14 @@ header {
     color: white;
 }
 
-header h1, header p {
-    margin: 15px 0 8px 120px;
-    text-align: left;
-}
+    header h1, header p {
+        margin: 15px 0 8px 120px;
+        text-align: left;
+    }
 
-header p {
-    font-style: italic;
-}
+    header p {
+        font-style: italic;
+    }
 
 footer {
     vertical-align: bottom;
@@ -77,7 +77,7 @@ main {
     border: double;
     background-color: rgba(152,161,168, .8);
     height: 120em;
-    width: 99.8%;   
+    width: 99.8%;
     color: white;
     background-size: cover;
 }
@@ -90,7 +90,7 @@ header img {
 }
 
 section h1 {
-    color: black;    
+    color: black;
     font-size: 22pt;
 }
 
@@ -121,14 +121,13 @@ main section h1 {
     border-color: white;
 }
 
-main section h2 {  
+main section h2 {
     color: black;
 }
 
 main section div img {
     margin-left: 20px;
     margin-right: 40px;
-   
 }
 
 main section div article p {
@@ -157,7 +156,7 @@ div article h3 {
 .gallery {
     display: inline-block;
     border: double;
-    vertical-align: top;  
+    vertical-align: top;
     width: 30%;
     padding: 1%;
     height: 550px;
@@ -179,7 +178,6 @@ div article h3 {
 
 main h1 {
     text-align: center;
-    
     color: black;
 }
 
@@ -240,11 +238,39 @@ main div div article p {
 .table {
     color: black;
     font-size: 15pt;
-    margin-left: 38%;   
+    margin-left: 38%;
 }
 
 table, th, td {
-    border: 5px double;   
+    border: 5px double;
     align-content: center;
-    color: black;   
+    color: black;
+}
+
+/*body div a {
+    font-size: 16px;*/
+    /*display: flex;*/       
+    /*background: white;
+    color: white;
+    line-height: 1;
+    margin-left: 50%;
+    border-radius: 50%;
+    border-color: white;
+    width: 40px;
+    height: 40px;*/
+    /*display: flex;*/
+}
+
+/*header .socialIcons {
+    display: flex;
+}*/
+
+/*#header .socialIcons{
+    display: flex; 
+    border: white;
+}*/
+
+.hover{
+    border: double;
+    height: 550px;
 }
